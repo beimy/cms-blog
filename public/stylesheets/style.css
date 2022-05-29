@@ -20,6 +20,11 @@
   a:hover {
     color: #3486eb;
   }
+
+  .title-link {
+    font-size: 1.5em;
+    color: black;
+  }
   
   button {
     background-color: #225ca3;
