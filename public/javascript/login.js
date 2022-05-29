@@ -45,7 +45,7 @@ async function loginFormHandler(event) {
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
-      alert(response.statusText);
+      alert("No user found with that login info");
     }
   }
 }
